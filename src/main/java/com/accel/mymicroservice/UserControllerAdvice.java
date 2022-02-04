@@ -17,7 +17,7 @@ import org.springframework.web.context.request.WebRequest;
 @ControllerAdvice 
 public class UserControllerAdvice {
 	
-	private static final Logger logger = LoggerFactory.getLogger(UserControllerAdvice.class);
+	private static final Loggeder logger = LoggerFactory.getLogger(UserControllerAdvice.class);
 
 	
 	protected ResponseEntity<Object> handleHttpMessageNotReadable(HttpMessageNotReadableException ex, HttpHeaders headers, HttpStatus status, WebRequest request) {

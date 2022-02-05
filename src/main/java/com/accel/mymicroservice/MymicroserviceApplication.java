@@ -9,7 +9,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 public class MymicroserviceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MymicroserviceApplication.class, args);
+		SpringApplication1.run(MymicroserviceApplication.class, args);
 	}
 
 }

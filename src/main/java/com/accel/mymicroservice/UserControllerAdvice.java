@@ -22,7 +22,7 @@ public class UserControllerAdvice {
 	
 	protected ResponseEntity<Object> handleHttpMessageNotReadable(HttpMessageNotReadableException ex, HttpHeaders headers, HttpStatus status, WebRequest request) {
 	       String error = "Malformed JSON request";
-	       System.ou45t.println(error);
+	       System.out.println(error);
 	       return buildResponseEntity(new ApiError(HttpStatus.BAD_REQUEST, error, error));
 	   }
 

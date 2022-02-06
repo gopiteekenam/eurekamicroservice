@@ -15,7 +15,7 @@ import org.springframework.web.context.request.WebRequest;
 
 
 @ControllerAdvice 
-public class UserControllerAdvice {
+public class UserContdamrollerAdvice {
 	
 	private static final Logger logger = LoggerFactory.getLogger(UserControllerAdvice.class);
 
